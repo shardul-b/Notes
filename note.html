@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="noteStyle.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>Note</title>
+</head>
+<body>
+	<h1 class='title' contenteditable="true">Set Title</h1>
+	<div class="note-content" contenteditable="true">
+		Write here...
+	</div>
+	<div class="options">
+		<div class="container flex-space">
+			<div class="option">
+				<input type="color" value="#F5F5F5" class="hidden option-button background"/>
+				<button class="option-button button-background">
+					<span class="material-icons">
+						format_color_fill
+					</span>
+				</button>
+
+				<!-- <button>clickme</button> -->
+			</div>
+			<div class="option">
+				<input type="color" class="hidden option-button text"/>
+				<button class="color-button option-button text-button"><span class="material-icons">format_color_text</span></button>
+			</div>
+			<div class="option">
+				<button class="option-button bold-button">
+					<span class="material-icons">
+						format_bold
+					</span>
+				</button>
+			</div>
+			<div class="option">
+				<button class="option-button italic-button">
+					<span class="material-icons">
+						format_italic
+					</span>
+				</button>
+			</div>
+			<div class="option">
+				<button class="option-button underline-button">
+					<span class="material-icons">
+						format_underlined
+					</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="note.js"></script>
+</body>
+</html>
