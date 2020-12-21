@@ -1,0 +1,1 @@
+Simple Notes app for writing and saving(in next update) notes. 
